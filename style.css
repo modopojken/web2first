@@ -1,0 +1,120 @@
+html{
+	
+}
+
+div{
+color: white;
+font-size: 100%;
+margin-top: 0%;
+margin-right: 0%;
+}
+
+article{
+margin-top: 5%;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+body{
+	margin-bottom: 0%;
+	margin-top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	font-size: 200%; 	
+}
+
+h1{
+	color: white;
+	margin-left: 10%;
+}
+
+h3{
+	margin-top:-5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+.grid-container > div {
+  text-align: center; 
+}
+
+.mellanrum{
+	color: green;
+	
+}
+
+.mellanrum > div{
+	color:green;
+	margin-left: 10%;
+	margin-top: -3%;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.hejsan{
+	color: white;
+	font-size: 80%;
+	background-color:FFFFFF;
+}
+
+.clip{
+	margin-left: 5.7%;
+	margin-right: 3%;
+	margin-top: 2%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+}
+
+.placement {
+	
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  margin-left: 5% ;
+  margin-right: 5% ;
+}
+.placement > div {
+	color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  margin-right: 5% ;
+  margin-left: 5% ;
+}
+
+.faildiv {
+	
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  margin-left: 5% ;
+  margin-right: 5% ;
+}
+.faildiv > div {
+	color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  margin-right: 5% ;
+  margin-left: 5% ;
+}
+
+.upload{
+	margin-left: 10%;
+}
